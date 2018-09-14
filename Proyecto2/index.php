@@ -38,6 +38,11 @@ and open the template in the editor.
                        echo 'html';
                        break;
                }
+               echo '<br>';
+               $Arreglos =array ("Hola",1,"Hola");
+               print_r($Arreglos);
+               //echo $Arreglos[2]. "<br>". $Arreglos[0];
+               //Arreglos 
                
  
               
@@ -47,7 +52,21 @@ and open the template in the editor.
             <?php
                 echo 'Esta es otra seccion ';
             ?>
-            
+        <pre>
+            <h3>
+                <?php
+                   $dato = array_pad($Arreglos);
+                   print_r($Arreglos);
+                   //Arreglos asociados 
+                   $usuarios = array ('nombre' => "Katherin",
+                       "Apellidos" => "Monsalve henao" , 'Cedula' => 12345);
+                   echo "<h1>" . $usuarios['nombre'] . "</h1>";
+                   echo 'hola'. "<br>";
+                   $Existe = in_arrray ("html",$Arreglos);
+                   echo $Existe;
+                ?>
+            </h
+        </pre>
         </p>
     </body>
 </html>
