@@ -7,11 +7,47 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Proyecto</title>
     </head>
     <body>
-        <?php
-        // put your code here
-        ?>
+        
+        <h1> 
+            <?php
+            //Esto es un comentario
+               $PrimeraVariable =2;
+               $SegundaVariable = 5 ;
+               $lenguaje = 'Javascript';
+              
+               if($PrimeraVariable==2 && $SegundaVariable == 5)
+               {
+                   echo 'soy menor';
+               }
+               else
+               {
+                   echo 'soy mayor';
+               }
+               switch ($lenguaje)
+               {
+                   case "php":
+                       echo 'php';
+                       break;
+                   case "Javascript":
+                       echo 'Javascript';
+                       break;
+                   case "html":
+                       echo 'html';
+                       break;
+               }
+               
+ 
+              
+            ?>
+        </h1>
+        <p>
+            <?php
+                echo 'Esta es otra seccion ';
+            ?>
+            
+        </p>
     </body>
 </html>
