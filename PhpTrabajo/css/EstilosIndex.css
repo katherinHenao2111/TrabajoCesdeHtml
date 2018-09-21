@@ -8,6 +8,21 @@ and open the template in the editor.
     Author     : 4-01
 */
 .navbar{
-    background-color: #FF5722;
+    background: linear-gradient(#FF5722, #757575);
+   
 }
+.style-footer{
+   
+    text-align: center;
+}
+.registro{
+     text-align: center;
+     box-shadow:5px 5px #BDBDBD;
+   
+     
+}
+.btn-enviar{
+    background: #FF5722;
+}
+
 
